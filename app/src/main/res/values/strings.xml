@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Android4_1</string>
+    <string name="names">name\n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="anime">Anime</string>
+    <string name="back"><![CDATA[<Back]]></string>
+    <string name="anime_name">Anime name</string>
+    <string name="add_to_library">Add to Library</string>
+    <string name="tv_1999">tv-1999</string>
+    <string name="p3itugp39ehfjpomsxrdyctfuvgyibuhonijpxrdcytfuvgyibuhonijpmokxrdctfoxrdctfvgybhunjimokesxdrctfvgybhunjimrxdmkl_rxdctfokrdctfvgybuhnjimkesxrdctfvgybhunjixrdctfvgybhunij">p3itugp39ehfjpomsxrdyctfuvgyibuhonijpxrdcytfuvgyibuhonijpmokxrdctfoxrdctfvgybhunjimokesxdrctfvgybhunjimrxdmkl,rxdctfokrdctfvgybuhnjimkesxrdctfvgybhunjixrdctfvgybhunij...</string>
+    <string name="view_more">View more</string>
+    <string name="pirate">pirate</string>
+    <string name="rating">(Rating)</string>
+    <string name="rank_30">Rank #30</string>
+</resources>

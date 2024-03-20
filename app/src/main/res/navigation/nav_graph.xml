@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/viewPagerFragment2"
+    android:id="@+id/nav_graph.xml">
+
+
+    <fragment
+        android:id="@+id/viewPagerFragment2"
+        android:name="com.example.android4_1.presentation.ui.fragments.ViewPagerFragment"
+        android:label="ViewPagerFragment"
+        tools:layout="@layout/fragment_view_pager">
+        <action
+            android:id="@+id/action_viewPagerFragment2_to_detailedKitsuFragment"
+            app:destination="@id/detailedKitsuFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailedKitsuFragment"
+        android:name="com.example.android4_1.presentation.ui.fragments.DetailedKitsuFragment"
+        android:label="fragment_detailed_kitsu"
+        tools:layout="@layout/fragment_detailed_kitsu" >
+        <argument
+            android:name="id"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+</navigation>
